@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: od-rea:latest
+    container_name: od-rea
+    restart: always
+    ports: 
+      - "80:80"
